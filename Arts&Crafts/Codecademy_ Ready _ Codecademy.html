@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!-- saved from url=(0139)https://www.codecademy.com/project-reviews/new?program_id=e673f1274140c099203e9ae4d68612d6&content_item_id=a031e4700a8ba8ccd5a86e8be990e6f6 -->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml" lang="en" dir="ltr" class="gr__codecademy_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+<script src="./Codecademy_ Ready _ Codecademy_files/nr-spa-1044.min.js"></script><script type="text/javascript" async="" src="./Codecademy_ Ready _ Codecademy_files/a3w.js"></script><script type="text/javascript" async="" src="./Codecademy_ Ready _ Codecademy_files/analytics.js"></script><script type="text/javascript" async="" src="./Codecademy_ Ready _ Codecademy_files/track.js" id="cio-tracker" data-site-id="a0ffe98b9a714eaaeec1"></script><script async="" src="./Codecademy_ Ready _ Codecademy_files/fbevents.js"></script><script id="facebook-jssdk" src="./Codecademy_ Ready _ Codecademy_files/sdk.js"></script><script type="text/javascript" async="" src="./Codecademy_ Ready _ Codecademy_files/analytics.min.js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"8502746af5","applicationID":"2210607","transactionName":"c1hZF0tfVQkEExoWEF9dUgBNb0sAFwhQEREfWVIU","queueTime":1,"applicationTime":385,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwYAVVFXGwECVVFUBwY="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(19),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,s.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,s.now()])}var i=t("handle"),a=t(20),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(p){"stack"in p&&(t(12),t(11),"addEventListener"in window&&t(6),s.xhrWrappable&&t(13),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(){C++,M=y.hash,this[u]=b.now()}function o(){C--,y.hash!==M&&i(0,!0);var t=b.now();this[l]=~~this[l]+t-this[u],this[d]=t}function i(t,e){E.emit("newURL",[""+y,e])}function a(t,e){t.on(e,function(){this[e]=b.now()})}var c="-start",s="-end",f="-body",u="fn"+c,d="fn"+s,p="cb"+c,h="cb"+s,l="jsTime",m="fetch",v="addEventListener",w=window,y=w.location,b=t("loader");if(w[v]&&b.xhrWrappable){var g=t(9),x=t(10),E=t(8),O=t(6),R=t(12),P=t(7),T=t(13),S=t("ee"),N=S.get("tracer");t(14),b.features.spa=!0;var M,j=w[v],C=0;S.on(u,r),S.on(p,r),S.on(d,o),S.on(h,o),S.buffer([u,d,"xhr-done","xhr-resolved"]),O.buffer([u]),R.buffer(["setTimeout"+s,"clearTimeout"+c,u]),T.buffer([u,"new-xhr","send-xhr"+c]),P.buffer([m+c,m+"-done",m+f+c,m+f+s]),E.buffer(["newURL"]),g.buffer([u]),x.buffer(["propagate",p,h,"executor-err","resolve"+c]),N.buffer([u,"no-"+u]),a(T,"send-xhr"+c),a(S,"xhr-resolved"),a(S,"xhr-done"),a(P,m+c),a(P,m+"-done"),E.on("pushState-end",i),E.on("replaceState-end",i),j("hashchange",i,!0),j("load",i,!0),j("popstate",function(){i(0,C>1)},!0)}},{}],5:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(12),c=t(11),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",p="resource",h="-start",l="-end",m="fn"+h,v="fn"+l,w="bstTimer",y="pushState",b=t("loader");b.features.stn=!0,t(8);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=b.now())}),o.on(v,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,b.now()])}),a.on(m,function(t,e,n){this.bstStart=b.now(),this.bstType=n}),a.on(v,function(t,e){i(w,[e,this.bstStart,b.now(),this.bstType])}),c.on(m,function(){this.bstStart=b.now()}),c.on(v,function(t,e){i(w,[e,this.bstStart,b.now(),"requestAnimationFrame"])}),o.on(y+h,function(t){this.time=b.now(),this.startPath=location.pathname+location.hash}),o.on(y+l,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],6:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(22)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],7:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=r.apply(this,arguments);return o.emit(n+"start",arguments,t),t.then(function(e){return o.emit(n+"end",[null,e],t),e},function(e){throw o.emit(n+"end",[e],t),e})})}var o=t("ee").get("fetch"),i=t(19);e.exports=o;var a=window,c="fetch-",s=c+"body-",f=["arrayBuffer","blob","json","text","formData"],u=a.Request,d=a.Response,p=a.fetch,h="prototype";u&&d&&p&&(i(f,function(t,e){r(u[h],e,s),r(d[h],e,s)}),r(a,"fetch",c),o.on(c+"end",function(t,e){var n=this;e?e.clone().arrayBuffer().then(function(t){n.rxSize=t.byteLength,o.emit(c+"done",[null,e],n)}):o.emit(c+"done",[t],n)}))},{}],8:[function(t,e,n){var r=t("ee").get("history"),o=t(22)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],9:[function(t,e,n){var r=t("ee").get("mutation"),o=t(22)(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],10:[function(t,e,n){function r(t){var e=a.context(),n=c(t,"executor-",e),r=new f(n);return a.context(r).getCtx=function(){return e},a.emit("new-promise",[r,e],e),r}function o(t,e){return e}var i=t(22),a=t("ee").get("promise"),c=i(a),s=t(19),f=NREUM.o.PR;e.exports=a,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){a.emit("propagate",[null,!o],i),o=o||!t}}var o=!1;s(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var i=e.apply(f,arguments),c=f.resolve(i);return c}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&a.emit("propagate",[t,!0],n),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),s(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),a.on("executor-start",function(t){t[0]=c(t[0],"resolve-",this),t[1]=c(t[1],"resolve-",this)}),a.on("executor-err",function(t,e,n){t[1](n)}),c.inPlace(f.prototype,["then"],"then-",o),a.on("then-start",function(t,e){this.promise=e,t[0]=c(t[0],"cb-",this),t[1]=c(t[1],"cb-",this)}),a.on("then-end",function(t,e,n){this.nextPromise=n;var r=this.promise;a.emit("propagate",[r,!0],n)}),a.on("cb-end",function(t,e,n){a.emit("propagate",[n,!0],this.nextPromise)}),a.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=a.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],11:[function(t,e,n){var r=t("ee").get("raf"),o=t(22)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],12:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(22)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],13:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",c)}function i(t){b.push(t),l&&(x?x.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<b.length;t++)r([],b[t]);b.length&&(b=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(6);var f=t("ee"),u=f.get("xhr"),d=t(22)(u),p=NREUM.o,h=p.XHR,l=p.MO,m=p.PR,v=p.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],b=[];e.exports=u;var g=window.XMLHttpRequest=function(t){var e=new h(t);try{u.emit("new-xhr",[e],e),e.addEventListener(w,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(h,g),g.prototype=h.prototype,d.inPlace(g.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),l){var x=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new l(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],14:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=a.now()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return l(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(15),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,p=t("id"),h=t(18),l=t(17),m=window.XMLHttpRequest;a.features.xhr=!0,t(13),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=l(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<d;c++)e.addEventListener(u[c],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)})}},{}],15:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],16:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(19),c=t(20),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",h=p+"ixn-";a(d,function(t,e){u[e]=o(p+e,!0,"api")}),u.addPageAction=o(p+"addPageAction",!0),u.setCurrentRouteName=o(p+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var l=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(h+"tracer",[f.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){l[e]=o(h+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],17:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],18:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],19:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],20:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],21:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],22:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(20),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){p([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o,e)}catch(a){p([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){p([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function p(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o,i){if(!p.aborted||i){t&&t(n,r,o);for(var a=e(o),c=l(n),s=c.length,f=0;f<s;f++)c[f].apply(a,r);var d=u[y[n]];return d&&d.push([b,n,r,a]),a}}function h(t,e){w[t]=l(t).concat(e)}function l(t){return w[t]||[]}function m(t){return d[t]=d[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var w={},y={},b={on:h,emit:n,get:m,listeners:l,context:e,buffer:v,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(p.aborted=!0,u=p.backlog={})}var c="nr@context",s=t("gos"),f=t(19),u={},d={},p=e.exports=o();p.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!x++){var t=g.info=NREUM.info,e=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(y,function(e,n){t[e]||(t[e]=n)}),s("mark",["onload",a()+g.offset],null,"api");var n=p.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===p.readyState&&i()}function i(){s("mark",["domContent",a()+g.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Date).getTime(),c))-g.offset}var c=(new Date).getTime(),s=t("handle"),f=t(19),u=t("ee"),d=window,p=d.document,h="addEventListener",l="attachEvent",m=d.XMLHttpRequest,v=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var w=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-1044.min.js"},b=m&&v&&v[h]&&!/CriOS/.test(navigator.userAgent),g=e.exports={offset:c,now:a,origin:w,features:{},xhrWrappable:b};t(16),p[h]?(p[h]("DOMContentLoaded",i,!1),d[h]("load",r,!1)):(p[l]("onreadystatechange",o),d[l]("onload",r)),s("mark",["firstbyte",c],null,"api");var x=0,E=t(21)},{}]},{},["loader",2,14,5,3,4]);</script>
+    <title>Codecademy: Ready | Codecademy</title>
+    <link href="https://production.cdmycdn.com/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    
+    <link href="https://www.codecademy.com/blog.rss" rel="alternate" title="Codecademy Blog" type="application/rss+xml">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="authenticity_token" name="csrf-param">
+<meta content="F22M83sPrM9yFM4jLVy3a9mIe6JKyoPjsAQuPQOWm9s=" name="csrf-token">
+    <meta name="description" content="Codecademy is the easiest way to learn how to code. It&#39;s interactive, fun, and you can do it with your friends.">
+    <meta name="keywords" content="codecademy,coding,code,programming">
+
+
+    
+<meta property="fb:app_id" content="212500508799908">
+<meta property="fb:profile_id" content="codecademy">
+<meta property="og:url" content="https://www.codecademy.com/project-reviews/new?program_id=e673f1274140c099203e9ae4d68612d6&amp;content_item_id=a031e4700a8ba8ccd5a86e8be990e6f6">
+<meta property="og:site_name" content="Codecademy">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Codecademy: Ready">
+<meta property="og:description" content="Codecademy is the easiest way to learn how to code. It&#39;s interactive, fun, and you can do it with your friends.">
+<meta property="og:rich_attachment" content="true">
+<meta property="og:image" content="https://production.cdmycdn.com/assets/logo-codecademy-social-abfd8450722d675bddedde689f8af624.png">
+    
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@codecademy">
+<meta name="twitter:title" content="Codecademy: Ready">
+<meta name="twitter:description" content="Codecademy is the easiest way to learn how to code. It&#39;s interactive, fun, and you can do it with your friends.">
+<meta name="twitter:image" content="https://production.cdmycdn.com/assets/logo-codecademy-social-abfd8450722d675bddedde689f8af624.png">
+
+    
+    
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+    <link href="./Codecademy_ Ready _ Codecademy_files/core-f1bec3f5c3f004d2f73e2d2904952011.css" media="screen" rel="stylesheet" type="text/css">
+
+
+        <link href="./Codecademy_ Ready _ Codecademy_files/vendor-dba6ca321a4bf9313ec4.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="./Codecademy_ Ready _ Codecademy_files/portal-dba6ca321a4bf9313ec4.css" media="screen" rel="stylesheet" type="text/css">
+
+
+    <script type="text/javascript">
+//<![CDATA[
+var CCDATA = CCDATA || {};
+//]]>
+</script>
+
+    
+<script id="CCDATA" type="text/javascript">
+//<![CDATA[
+
+  var CCDATA = CCDATA || {};  CCDATA['env'] = "production"; CCDATA['request_host'] = "www.codecademy.com"; CCDATA['request_path'] = "/project-reviews/new?program_id=e673f1274140c099203e9ae4d68612d6\u0026content_item_id=a031e4700a8ba8ccd5a86e8be990e6f6"; CCDATA['asset_host'] = "production.cdmycdn.com"; CCDATA['webpack_public_path'] = "//production.cdmycdn.com/webpack/"; CCDATA['assets_compiled'] = true; CCDATA['pollForNotifications'] = false; CCDATA['locale'] = "en"; CCDATA['API_HOST'] = "/api"; CCDATA['authenticity_token'] = "F22M83sPrM9yFM4jLVy3a9mIe6JKyoPjsAQuPQOWm9s="; CCDATA['available_locales'] = "en|pt|et-EE|fa|en-US|ko|zh|fr|ja|ky-KG|en-GB|fr-FR|es-AR|pt-BR|ar|de|es|ru"; CCDATA['login_requires_captcha'] = false; CCDATA['register_requires_captcha'] = false; CCDATA['secureSandboxIndexPath'] = "/assets/secure/index-e15cd898fa5906b22c02b7fc4cf8e509.html"; CCDATA['workshop_url'] = "workshop.codecademy.com:443"; CCDATA['workshop_protocol'] = "wss"; CCDATA['current_user'] = {"_id":"594f8c872ddfa35cc1000332","created_at":"2017-06-25T06:12:23-04:00","url":"http://www.codecademy.com/users/matthijsdeblock","username":"Matthijsdeblock","handle":"Matthijs De Block","email":"matthijs@superserieus.be","name":"Matthijs De Block","profile_image_url":"https://www.gravatar.com/avatar/f5c67c4021e5f2e45980e4a565666e24?s=140\u0026d=retro","points":129,"total_points":129,"roles":[],"ui_tour_elements":{"course-navigator":true,"discovery-checklist":true},"deleted":false,"authentication_token":"J5FkzpwzgPFwuR67M19Y","pro":true,"pro_ads":false,"experiments":{"exp_international_ready_ad_2017_05_01":"pro","exp_email_2017_02_06":"control","exp_product_unification_v1_2017_05_23":"unified1_1"},"location":{"geo_continent":"Europe","geo_country":"BE","geo_city":"Antwerp","geo_postal":"2100","geo_region":"VLG"}};
+  CCDATA.secureSandboxIndexPath = 'https://production.cdmycdn.com/assets/secure/index-e15cd898fa5906b22c02b7fc4cf8e509.html';
+
+//]]>
+</script>
+
+      <script src="./Codecademy_ Ready _ Codecademy_files/head-dba6ca321a4bf9313ec4.js" type="text/javascript"></script>
+    <script type="text/javascript">
+//<![CDATA[
+
+      !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.1";
+        analytics.load("awTEDiBEJ130cCHG1N74clKHGM3FLNzQ");
+        analytics.page();
+      }}();
+
+//]]>
+</script>    <script type="text/javascript">
+      /* <![CDATA[ */
+      var google_conversion_id = 861461659;
+      var google_custom_params = window.google_tag_params;
+      var google_remarketing_only = true;
+      /* ]]> */
+    </script>
+    <style>
+      /* inline to stay with Google script that creates iframe */
+      iframe[name="google_conversion_frame"] {
+        display: none !important;
+        height: 0 !important;
+        width: 0 !important;
+        line-height: 0 !important;
+        font-size: 0 !important;
+        float: left;
+      }
+    </style>
+    <!-- Hotjar Tracking Code for www.codecademy.com -->
+    <script type="text/javascript">
+//<![CDATA[
+
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:451715,hjsv:5};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+
+//]]>
+</script><script async="" src="./Codecademy_ Ready _ Codecademy_files/hotjar-451715.js"></script>
+
+    
+  <script async="" src="./Codecademy_ Ready _ Codecademy_files/modules-6d9dd0c92f7a6c48faa9589626c2bcf1.js"></script><style type="text/css">iframe#_hjRemoteVarsFrame {display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;}</style><style type="text/css" id="ki-fqt-fll"></style><style type="text/css" id="ki-fqt-fvz"></style></head>
+
+  <body browser="mac" data-gr-c-s-loaded="true">
+
+    
+  <div id="fb-root"></div>
+  <script type="text/javascript">
+//<![CDATA[
+
+    var FB_APP_ID = '212500508799908';
+    window.fbAsyncInit = function() {
+      var FB = (window.FB || undefined);
+      if (FB) {
+        FB.init({
+          appId      : FB_APP_ID
+        , channelUrl : window.root_url+'/channel.html'
+        , status     : true
+        , cookie     : true
+        , xfbml      : true
+        , version    : 'v2.8'
+        });
+      }
+    };
+    <!-- Load Facebook SDK for JavaScript -->
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+//]]>
+</script>
+    <!-- Facebook Pixel Code -->
+    <script>
+     !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+     n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+     n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+     t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+     document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+     fbq('init', '1036078779778355');
+     fbq('track', "PageView");</script>
+    <noscript>&lt;img height="1" width="1" style="display:none"
+     src="https://www.facebook.com/tr?id=1036078779778355&amp;ev=PageView&amp;noscript=1"
+     /&gt;</noscript>
+    <!-- End Facebook Pixel Code -->
+
+
+      <div class="react-root" data-react-class="PortalRouter"><section class="_18CgQDg3Su8I2jcMRQBUZ6" data-reactroot="" data-reactid="1" data-react-checksum="-904850633"><section class="_3ZDCOnjpiqdd8TAMpRPXVi" data-reactid="2"><header data-react-header="true" class="_2m_hDXMtwvETHFo3eGaTXE" data-reactid="3"><nav class="y7tvmmg7fKu4JpdaYECtN fit-fixed _2AyE6BSVwPoQZ6EJoCRCVT" data-reactid="4"><section class="_2zSA2d9oAw82vmGaiCI6HM vE2U5Z1_1p0OevhTkRrpb" data-reactid="5"><div class="_3bI54mnYg5essxyEwnBsko _3nDVtg6dS-0_R6p0nDL-1S" data-reactid="6"><a class="_1xOZs_2pgZHAoG4MALaCgS" href="https://www.codecademy.com/" data-reactid="7"><img alt="Codecademy logo" class="_39eW0wHuW9g7pG5q6TF7cE" src="./Codecademy_ Ready _ Codecademy_files/6646de37c832f1ea79dcee034b6d9e23.svg" data-reactid="8"></a></div></section><section class="_2zSA2d9oAw82vmGaiCI6HM _1KKDVD6unnpNtKqV9PPUQP" data-reactid="9"><div class="_3bI54mnYg5essxyEwnBsko _3nDVtg6dS-0_R6p0nDL-1S NiKQEilPGVQiLL-faXn41" data-reactid="10"><a href="https://ready.codecademy.com/offerings/?utm_campaign=cta_topnav&amp;utm_source=codecademy_platform&amp;utm_medium=internal_ads&amp;utm_content=upgrade_cta_v1&amp;utm_term=" class="no-underline" data-reactid="11"><div class="_5VTI96d-hitjuNGCfLO6X _2kwp78w4gxSQjvTSajoa6Q _3k0Eb6z_Bqcz16EQZ6rweG" data-reactid="12"><button data-btn="true" class="_2fDy3KzGIsY8FHMg74ib-V _2bwYMUTOYpw6i1TbVOJS4A _1mQgyp76JXoCrTvLgR_p-d" data-reactid="13">Upgrade</button></div></a></div><div class="_3bI54mnYg5essxyEwnBsko _3nDVtg6dS-0_R6p0nDL-1S NiKQEilPGVQiLL-faXn41" data-reactid="14"><a href="https://www.codecademy.com/learn" class="_1le84AU2Tvn8hDQEBK-7LY _5VTI96d-hitjuNGCfLO6X _2kwp78w4gxSQjvTSajoa6Q" data-reactid="15">Learn</a></div><div class="_3bI54mnYg5essxyEwnBsko _3nDVtg6dS-0_R6p0nDL-1S NiKQEilPGVQiLL-faXn41" data-reactid="16"><a href="https://www.codecademy.com/learn/all" class="_1le84AU2Tvn8hDQEBK-7LY _5VTI96d-hitjuNGCfLO6X _2kwp78w4gxSQjvTSajoa6Q" data-reactid="17">Catalog</a></div><div class="_3bI54mnYg5essxyEwnBsko _1f1KmfrKUtLxZllTyx0TrC _3nDVtg6dS-0_R6p0nDL-1S" data-reactid="18"><div class="_3wrXGt5j2uE4fjlPLrDXEA" data-reactid="19"><div class="_1XRkeRcO7hh1axYhmKiQMM _39K0C3ph1hpmLw6tsBfNnG GEk9Sbt3OmLggMB2aQtSj _1i2HDK_zSufmryADoGTYpD" data-reactid="20"><span data-reactid="21"><div class="_2gwf_JaG35W2Q5PrPxyOlQ _1QMy6xFGZBTYvXxof4DSDz" data-reactid="22"><span class="new-cc-icon icon-bell" data-reactid="23"></span></div></span></div><!-- react-empty: 24 --></div></div><div class="_3bI54mnYg5essxyEwnBsko _1f1KmfrKUtLxZllTyx0TrC _3nDVtg6dS-0_R6p0nDL-1S" data-reactid="25"><div class="_3wrXGt5j2uE4fjlPLrDXEA" data-reactid="26"><div id="dropdown-toggle" class="_3beJdIRG9xxfeiRwaBD9Cp" data-reactid="27"><div class="Y8dknuoW8NLiudcM-zQib _1pl0auxsnexFW5uqwCQW_x _2tbl3cOSPjsfIWBMlHZgcG" data-reactid="28"><img class="wXEAS7H2e7UsikVkXNety" src="./Codecademy_ Ready _ Codecademy_files/f5c67c4021e5f2e45980e4a565666e24" data-reactid="29"></div></div><!-- react-empty: 30 --></div></div></section></nav></header><div role="main" data-reactid="31"><div class="_1XRkeRcO7hh1axYhmKiQMM _39K0C3ph1hpmLw6tsBfNnG GEk9Sbt3OmLggMB2aQtSj" data-reactid="32"><!-- react-empty: 33 --><div class="_2N1DSsN5XcHbNcZrh34IhW" data-reactid="34"><img alt="submit-files" src="./Codecademy_ Ready _ Codecademy_files/a60f00cc30692b611378280a88947c1b.svg" class="YiNXMplMLq0-ye2diK9iD" data-reactid="35"><h3 class="_2iGSQppoYle7Fa50x6_Ayf" data-reactid="36">Select folder to submit</h3><p class="_3FZHSucQ8QP80wNUUjWbMw" data-reactid="37"><!-- react-text: 38 -->Submission is for Chrome and Firefox only. After you submit, your folder will be uploaded to your Github account.<!-- /react-text --><!-- react-text: 39 --> <!-- /react-text --><strong data-reactid="40">All submissions are final.</strong></p><div class="DCqtBARBja4SxUs7AFA8e" data-reactid="41"><a class="_1km18gVdvnNzhIqbiUIs4E" tabindex="-1" data-reactid="42"><!-- react-text: 43 -->Select Folder<!-- /react-text --><input type="file" id="folder-input" class="VK26_vzQSM8izV87RjYKk" data-reactid="44" webkitdirectory=""></a><button data-btn="true" class="_2fDy3KzGIsY8FHMg74ib-V _2bwYMUTOYpw6i1TbVOJS4A _3JhIcVa8SAUiC1_ZETEt6G FFsKOTgoPCO_hvbhlFIfa" fill="true" disabled="" data-reactid="45"><span data-reactid="46"><!-- react-text: 47 --> <!-- /react-text --><!-- react-text: 48 -->Submit<!-- /react-text --></span></button></div><div class="_1XRkeRcO7hh1axYhmKiQMM _2OvvmRIMuApp9TWMONyVY _2vYxR11m1V0CR_XQXaaJFx" data-reactid="49"><div class="_2ls7vmvMCitpQiP84R5r7L" data-reactid="50"><div class="_1XRkeRcO7hh1axYhmKiQMM _39K0C3ph1hpmLw6tsBfNnG GEk9Sbt3OmLggMB2aQtSj _3VCznYtrtljbygtFhuZMu3 _1lL_FNNMSWBP5Sxjcrla3z" data-reactid="51"><i name="folder" class="_3QwoyZ-5nUFRrbC-LsvaCS W6YEe9sod8XzMrxhIjZB8" data-reactid="52"></i></div><span class="_29nzK1ifWfbMHWt_VCml5v" data-reactid="53">No folder selected</span></div></div></div></div></div></section></section></div>
+
+
+      
+
+
+
+    
+
+  <div id="modal">
+    
+  </div>
+
+
+
+    
+<script id="I18N" type="text/javascript">
+//<![CDATA[
+
+  var I18n = (window.I18n || {});
+  I18n.defaultLocale = "en";
+  I18n.fallbacks = true;
+  I18n.locale = "en";
+  I18n.missingTranslationPrefix = '';
+    I18n.missingBehaviour = 'guess';
+
+//]]>
+</script><script src="./Codecademy_ Ready _ Codecademy_files/locale-en-f895bf65745daa9ed67c61545c8a3eff.js" type="text/javascript"></script>
+
+        <script src="./Codecademy_ Ready _ Codecademy_files/vendor-dba6ca321a4bf9313ec4.js" type="text/javascript"></script>
+    <script src="./Codecademy_ Ready _ Codecademy_files/portal-dba6ca321a4bf9313ec4.js" type="text/javascript"></script>
+    <!-- Google Adwords Scripts -->
+    <script type="text/javascript" src="./Codecademy_ Ready _ Codecademy_files/conversion_async.js" charset="utf-8"></script>
+    <noscript>
+      &lt;div style="display:inline;"&gt;
+        &lt;img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/861461659/?guid=ON&amp;amp;script=0"/&gt;
+      &lt;/div&gt;
+    </noscript>
+    <!-- End Google Adwords Scripts -->
+
+  
+
+
+<iframe name="_hjRemoteVarsFrame" title="_hjRemoteVarsFrame" id="_hjRemoteVarsFrame" src="./Codecademy_ Ready _ Codecademy_files/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><div id="ads"></div></body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>
